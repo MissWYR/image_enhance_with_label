@@ -1,0 +1,6 @@
+certifi==2018.11.29
+mkl-fft==1.0.10
+mkl-random==1.0.2
+numpy==1.16.2
+olefile==0.46
+Pillow==5.4.1
