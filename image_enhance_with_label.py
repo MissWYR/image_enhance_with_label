@@ -219,7 +219,7 @@ def v_flip_func():
         if b == ".jpg":
             img_path = os.path.join("/home/weiyiran/Public/src_img", i)
             img = pilimg.open(img_path)
-            ng = img.transpose(pilimg.FLIP_TOP_BOTTOM)  # 上下对换。
+            ng = img.transpose(pilimg.FLIP_LEFT_RIGHT)  # 左右对换。
             # cv2.imwrite("/home/weiyiran/Public/dis_img/" + a + "_h.jpg", ng)
             ng.save("/home/weiyiran/Public/vflip_img/"+ a + "_v.jpg")
             print("log: %s is processed." % (i))
